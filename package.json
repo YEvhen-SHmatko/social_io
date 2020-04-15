@@ -4,7 +4,6 @@
   "author": "YEvhen SHmatko <yevhen.shmatko@gmail.com>",
   "license": "MIT",
   "private": true,
-  "homepage": "https://YEvhen-SHmatko.github.io/social_io",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
