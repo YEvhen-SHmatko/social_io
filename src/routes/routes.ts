@@ -11,26 +11,26 @@ const LoginPage = React.lazy(() =>
 const CreatePage = React.lazy(() =>
   import("../Page/CreatePage" /* webpackChunkName: "CreatePage" */)
 );
-
+const repositori = "/social_io";
 const routes = {
   HomePage: {
     lable: "Home",
-    path: "/",
+    path: repositori + "/",
     component: HomePage,
   },
   AboutPage: {
     lable: "About",
-    path: "/about",
+    path: repositori + "git /about",
     component: AboutPage,
   },
   LoginPage: {
     lable: "Login",
-    path: "/auth/login",
+    path: repositori + "/auth/login",
     component: LoginPage,
   },
   CreatePage: {
     lable: "Create",
-    path: "/create",
+    path: repositori + "/create",
     component: CreatePage,
   },
 };
